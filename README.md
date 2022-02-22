@@ -1,7 +1,7 @@
 # unpuzzle
 异型拼图
 ### 实现效果
-![image](https://github.com/pumpkin12135/unpuzzle/blob/main/img/my.png)
+![image](https://github.com/pumpkin12135/unpuzzle/blob/main/puzzle-vue/src/img/my.png)
 ***
 ### 具体功能
 :sunglasses:鼠标左键可拖动拼图  
