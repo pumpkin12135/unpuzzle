@@ -50,14 +50,14 @@
                     username: this.username.replace(/[\r\n]/g, "")
                 }
                 const _this = this
-                this.$axios.post('http://106.12.119.247:8081/user/login', ruleForm).then(res => {
+                this.$axios.post('http://localhost:8081/user/login', ruleForm).then(res => {   //TODO 注意修改为自己的
                         //console.log(res.data)
                         Store.id = res.data.data.id
                         Store.username = res.data.data.username;
                         Store.status = res.data.data.status;
                         Store.first = res.data.data.status;
 
-                        const url = "http://106.12.119.247:8081/puzzle/level/" + Store.status
+                        const url = "http://localhost:8081/puzzle/level/" + Store.status      //TODO 注意修改为自己的
                         this.$axios.get(url).then(res => {
                                 //console.log(res.data)
                                 Store.N = res.data.data.n
