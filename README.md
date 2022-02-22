@@ -1,7 +1,7 @@
 # unpuzzle
 异型拼图
 ### 实现效果
-DEMO: http://106.12.119.247/dist/#/puzzle 欢迎访问  
+:grin:DEMO: http://106.12.119.247/dist/#/puzzle 欢迎访问  
 ![image](https://github.com/pumpkin12135/unpuzzle/blob/main/puzzle-vue/src/img/my.png)
 ***
 ### 具体功能
@@ -12,7 +12,7 @@ DEMO: http://106.12.119.247/dist/#/puzzle 欢迎访问
 ***
 ### 注意事项
 :eyes:背景采用的是本地图片，需要下载下来放在文件夹里面  
-后端采用JAVA，前端使用VUE
+:eyes:后端采用JAVA，前端使用VUE
 ***
 ### TODO
 :grin:左右键一起按的时候 暂不改  
