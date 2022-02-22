@@ -661,7 +661,7 @@
                 this.open1()
                 Store.status++;
 
-                const url = "http://106.12.119.247:8081/puzzle/level/" + Store.status
+                const url = "http://localhost:8081/puzzle/level/" + Store.status      //注意修改为自己的
                 this.$axios.get(url).then(res => {
                         console.log(res.data)
                         Store.N = res.data.data.n
@@ -678,7 +678,7 @@
                     username: Store.username,
                     status: Store.status
                 }
-                this.$axios.post('http://106.12.119.247:8081/user/logout', ruleForm).then(res => {
+                this.$axios.post('http://localhost:8081/user/logout', ruleForm).then(res => {   //注意修改为自己的
                         console.log(res)
                     }
                 )
@@ -692,7 +692,7 @@
                 this.open1()
                 Store.status++;
 
-                const url = "http://106.12.119.247:8081/puzzle/level/" + Store.status
+                const url = "http://localhost:8081/puzzle/level/" + Store.status    //注意修改为自己的
                 this.$axios.get(url).then(res => {
                         console.log(res.data)
                         Store.N = res.data.data.n
@@ -709,7 +709,7 @@
                     username: Store.username,
                     status: Store.status
                 }
-                this.$axios.post('http://106.12.119.247:8081/user/logout', ruleForm).then(res => {
+                this.$axios.post('http://localhost:8081/user/logout', ruleForm).then(res => {   //注意修改为自己的
                         console.log(res)
                     }
                 )
