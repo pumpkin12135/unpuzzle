@@ -1,0 +1,17 @@
+com\pumpkin\CodeGenerator$2.class
+com\pumpkin\config\CorsConfig.class
+com\pumpkin\CodeGenerator.class
+com\pumpkin\service\impl\UserServiceImpl.class
+com\pumpkin\common\lang\Result.class
+com\pumpkin\service\PuzzleService.class
+com\pumpkin\entity\Puzzle.class
+com\pumpkin\config\MybatisPlusConfig.class
+com\pumpkin\CodeGenerator$1.class
+com\pumpkin\controller\PuzzleController.class
+com\pumpkin\service\UserService.class
+com\pumpkin\controller\UserController.class
+com\pumpkin\entity\User.class
+com\pumpkin\service\impl\PuzzleServiceImpl.class
+com\pumpkin\mapper\UserMapper.class
+com\pumpkin\mapper\PuzzleMapper.class
+com\pumpkin\PuzzleApplication.class
