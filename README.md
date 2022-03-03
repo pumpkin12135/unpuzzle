@@ -3,8 +3,8 @@
 ### 开发文档
 :fire:https://kj4o70d37z.feishu.cn/docs/doccnqkWeBn2WMChoDMqAyo0TBc
 ### 实现效果
-:grin:DEMO: http://106.12.119.247/dist/#/puzzle 欢迎访问  
-  
+:grin:电脑版DEMO: http://106.12.119.247/dist/#/puzzle  
+:grin:手机版DEMO: http://106.12.119.247/mobile 欢迎访问  
 ![image](https://github.com/pumpkin12135/unpuzzle/blob/main/puzzle-vue/src/img/my.png)
 ***
 ### 具体功能
